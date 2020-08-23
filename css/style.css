@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bottom-navbar {
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  background: #fff;
+  border-radius: 30px 30px 0px 0px;
+  padding: 10px 8px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.bottom-navbar .con-effect {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bottom-navbar .con-effect .effect {
+  background: rgba(232, 76, 79, 0.15);
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  left: 13px;
+  border-radius: 18px;
+}
+
+.bottom-navbar button {
+  width: 60px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0;
+  background: transparent;
+  border-radius: 20px;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.bottom-navbar button .active {
+  color: #e84c4f;
+}
+
+.bottom-navbar button i {
+  font-size: 1.5rem;
+  pointer-events: none;
+}
+
+.bottom-navbar button:active:not(.float) {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.bottom-navbar .float {
+  margin-top: -50px;
+  color: #fff;
+  background: #e84c4f;
+  height: 60px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(232, 76, 79, 0.4);
+          box-shadow: 0px 10px 20px 0px rgba(232, 76, 79, 0.4);
+}
+
+.container {
+  position: fixed;
+  top: calc(var(--vh, 1vh) * 100);
+  width: 100%;
+  height: calc(var(--vh, 1vh) * 50);
+  background: #fff;
+  border-radius: 30px 30px 0px 0px;
+  padding-top: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container::before {
+  content: "";
+  left: 0px;
+  bottom: -150px;
+  width: 100%;
+  height: 150px;
+  background: #fff;
+  position: absolute;
+}
+
+.container::after {
+  content: '';
+  left: 50%;
+  top: -14px;
+  width: 45px;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */
