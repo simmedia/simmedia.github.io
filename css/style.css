@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .bottom-navbar {
   position: fixed;
   bottom: 0;
@@ -69,8 +73,8 @@
   border: none;
   background: transparent;
   border-radius: 20px;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 .bottom-navbar a .active {
@@ -128,7 +132,6 @@
 
 .container img {
   width: 75%;
-  margin-top: 40px;
 }
 
 .container button {
@@ -142,10 +145,10 @@
 
 .container p {
   width: 70%;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
   font-weight: 500;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .container::before {
@@ -159,7 +162,7 @@
 }
 
 .container::after {
-  content: '';
+  content: "";
   left: 50%;
   top: -14px;
   width: 45px;
