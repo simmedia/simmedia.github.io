@@ -33,12 +33,13 @@
             width: 60px;
             height: 50px;
             position: absolute;
-            left: 13px;
+            left: 16px;
             border-radius: 18px;
         }
     }
 
-    button {
+    a {
+        text-decoration: none;
         width: 60px;
         height: 50px;
         display: flex;

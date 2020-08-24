@@ -1,6 +1,6 @@
 // const anime = require('animejs');
 
-const buttons = document.querySelectorAll('.bottom-navbar button:not(.float)');
+const buttons = document.querySelectorAll('.bottom-navbar a:not(.float)');
 const effect = document.querySelector('.effect');
 const container = document.querySelector('.container');
 let y = 0;
