@@ -82,7 +82,7 @@
   pointer-events: none;
 }
 
-.bottom-navbar button:active:not(.float) {
+.bottom-navbar a:active:not(.float) {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
