@@ -7,6 +7,11 @@ let y = 0;
 let moveY = 0;
 let open = false;
 
+window.addEventListener('load', () => {
+    const button = document.querySelector('.active');
+    effect.style.left = `${button.offsetLeft}px`
+})
+
 window.addEventListener('touchstart', (evt) => {
     const area = window.innerHeight - evt.touches[0].clientY
     y = area;
