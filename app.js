@@ -36,7 +36,7 @@ window.addEventListener('touchend', (evt) => {
     if (moveY > (window.innerHeight / 4)) {
         anime({
             targets: '.container',
-            translateY: `-${window.innerHeight / 2}px`,
+            translateY: `-100%`,
             duration: 600,
         })
         open = true;
@@ -51,6 +51,7 @@ window.addEventListener('touchend', (evt) => {
     }
 })
 
+// effect.style.left = 'none';
 
 console.log(buttons);
 
